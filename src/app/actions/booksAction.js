@@ -33,8 +33,8 @@ export function fetchBooks() {
       return json;
     })
     .then((json) => {
-      console.log('so....');
-      console.log(json);
+      //console.log('so....');
+      //console.log(json);
       dispatch(getBooksAction(json));
     });
   };
